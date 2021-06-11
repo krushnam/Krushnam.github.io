@@ -1616,9 +1616,13 @@ input, select, textarea {
 			}
 
 		.image.featured {
-			display: block;
+				height: 240px;
 			width: 100%;
+			overflow: hidden;
 			margin: 0 0 2em 0;
+		
+			background-position: center center;
+			background-repeat: no-repeat;
 		}
         .image.pic{
 				position: relative;
